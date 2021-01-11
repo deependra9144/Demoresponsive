@@ -193,10 +193,10 @@ padding: 8px;
    color: black;
 }
 .inline{
-    background-color: rgb(48, 47, 47);
+    background-color: rgb(71, 70, 70);
     border: 0px solid red;
-    border-radius: 12px;
-   padding: 60px;
+    border-radius: 8px;
+   padding: 70px;
     display: inline-block;
 margin-left: 11%;
 margin-bottom: 10px;
@@ -225,10 +225,11 @@ padding: 15px;
     border: 1px solid red;
     border-radius: 15px;
     background: rgb(230, 229, 229);
-    padding: 15px;
+    padding: 10px;
     position: relative;
  bottom: 40px;
  left: 4px;
+ margin: 5px;
     text-align: center;
 }
 
@@ -255,15 +256,15 @@ body{
 .logo h3{
     font-size: 25px;
   position: relative;
-  right:37px;
+  right:36px;
   cursor: pointer;
 text-align: center;
 }
-.inline{
-    display: block;
-    margin-left: 1px;
+.inline{   
+   border-radius: 8px;
+
 }
- 
+
 .menu li{
 
 margin-left :6px;
@@ -275,6 +276,7 @@ border-radius: 1px;
     border-radius: 0px;
     padding: 5px;
 }
+
 
 .div1{
      grid-row:1/2;
@@ -405,17 +407,7 @@ padding: 5px;
 }
 @media only screen and (max-width :1065px){
 
-.inline{
-     background-color: rgb(48, 47, 47);
-    border: 0px solid red;
-    border-radius: 12px;
-   padding: 60px;
-    display: inline-block;
-margin-left: 5%;
-margin-bottom: 10px;
-    list-style: none;
-    text-align: center;
-  
-} 
-
+.div8{
+    display: inline-flexbox;
+}
 }
